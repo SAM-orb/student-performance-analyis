@@ -5,7 +5,13 @@
 This document outlines the complete data cleaning and preparation process carried out in Microsoft Excel before exploratory data analysis was performed on the student performance dataset.
 The objective of the cleaning process was to improve readability, maintain data integrity, standardize categorical values, and prepare the dataset for analysis and visualization.
 
----
+### 📊 Visualizing the Transformation
+
+**Before: The Raw Dataset**
+![Raw Student Data Preview](images/raw-data.png)
+
+**After: The Cleaned Dataset**
+![Cleaned Student Data Preview](images/cleaned-data.png)
 
 # Data Cleaning Steps
 
