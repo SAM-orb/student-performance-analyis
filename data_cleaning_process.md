@@ -100,7 +100,7 @@ Several columns were renamed using a consistent `snake_case` naming convention t
 
 | internet | internet_access |
 
-| romantic | in_relationship |
+| romantic | romantic_status |
 
 ## 7. Mapped Numerical Codes to Descriptive Categories
 
