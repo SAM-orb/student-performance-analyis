@@ -18,7 +18,7 @@ Removed the records to preserve analytical integrity
 SELECT *
 FROM students
 WHERE final_grade = 0;
-![Outlier data](images/.ROQ1png)
+![Outlier data](images/ROQ1.png)
 
 # Data Transformation
 To improve the analysis, additional derived columns were created.
