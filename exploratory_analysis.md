@@ -47,17 +47,17 @@ SELECT
     ROUND(AVG(final_grade), 2) AS avg_final_grade
 FROM nozeroes
 GROUP BY performance_pattern;
-![Performancetracking](images/.ROQ14png)
+![Performancetracking](images/ROQ.14png)
 
 # Student Demographics
 Students residing in urban areas account for approximately 78% of the dataset.
 Due to this significant demographic imbalance, the address attribute was excluded from the performance analysis to avoid skewed results.
-![address chart](ROQ2/.png)
+![address chart](images/ROQ2.png)
 
 # Academic performance analysis
 ## Absences vs student performance
 Students with higher absenteeism generally had lower average grades.
-![absences pivottable](ROQ3/.png)
+![absences pivottable](images/ROQ3.png)
 
 ## Age vs student performance
 Student performance appears to be inversely proportional to age.
@@ -72,26 +72,26 @@ GROUP BY age
 ORDER BY age;
 ## Interpretation
 Higher absenteeism among older students may contribute to reduced academic performance.
-![agevgrade](ROQ4/.png)
+![agevgrade](images/ROQ4.png)
 
 ## Paid tutoring vs student performance
 Paid tutoring did not significantly improve overall student performance.
 ## Interpretation
 Academic success may depend more on study habits and motivation than external tutoring.
-![pivottable](ROQ6/.png)
+![pivottable](images/ROQ6.png)
 
 ## Studytime vs student performance
 Increased study time positively correlates with student performance.
 Study time appears more influential than paid tutoring.
 ## Interpretation
 Consistent independent study habits contributes more to academic success than paid tutoring.
-![pivottable](ROQ5/.png)
+![pivottable](images/ROQ5.png)
 
 ## Previous failures vs student performance
 Students with previous academic failures consistently performed poorly.
 ## Interpretation
 Past academic struggles may predict future academic difficulties.
-![pivottable](ROQ7/.png)
+![pivottable](images/ROQ7.png)
 
 # Family and social factors
 ## Parent education vs student performance
@@ -106,20 +106,20 @@ SELECT parent_education,
 FROM student_data
 GROUP BY parent_education
 ORDER BY parent_education;
-![queryresult](ROQ8/.png)
+![queryresult](images/ROQ8.png)
 ## Interpretation
 Higher parental educational attainment may provide stronger academic support environments.
 
 ## Romantic status vs student performance
 Romantic relationship status showed no significant impact on academic performance. They had a slightly lower mean averag grade than single students
 Students in relationships recorded higher absenteeism.
-![pivottable](ROQ9/.png)
+![pivottable](images/ROQ9.png)
 
 # Lifestyle and behavioural factors
 ## Going out frequency vs student performance
 Higher social activity (go_out) negatively correlates with student performance.
 Also students with high social activity were found to have lower study time.
-![pivottable](ROQ10/.png)
+![pivottable](images/ROQ10.png)
 ## Interpretation
 Excessive social outings may reduce study time and academic focus.
 
@@ -127,14 +127,14 @@ Excessive social outings may reduce study time and academic focus.
 Students with higher alcohol consumption generally recorded lower academic performance.
 ## Interpretation
 Lifestyle choices may significantly impact educational outcomes.
-![pivottable](ROQ11/.png)
+![pivottable](images/ROQ11.png)
 
 ## Higher education intention
 Only 14 students do not intend to pursue higher education. 
 These students had a significantly lower average than the overall class performance.
 ## Interpretation
 Long-term educational goals positively influence academic discipline and performance.
-![pivottable](ROQ12/.png)
+![pivottable](images/ROQ12.png)
 
 # Outlier investigations
 While high absences and low study time were seen to be a common trait among poor performers, this specific query isolated outliers who achieve above-average grades despite high absenteeism and minimal study time. These outliers constituted a negligible minority of the dataset
@@ -152,7 +152,7 @@ WHERE absences > 15
   AND average_grade >= 10
 ORDER BY average_grade DESC;
 This query returned only 12 rows
-![queryresult](ROQ13/.png)
+![queryresult](images/ROQ13.png)
 
   ` 
 
