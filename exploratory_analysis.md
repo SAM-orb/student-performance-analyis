@@ -47,7 +47,7 @@ SELECT
     ROUND(AVG(final_grade), 2) AS avg_final_grade
 FROM nozeroes
 GROUP BY performance_pattern;
-![Performancetracking](images/ROQ.14png)
+![Performancetracking](images/ROQ14.png)
 
 # Student Demographics
 Students residing in urban areas account for approximately 78% of the dataset.
