@@ -4,9 +4,9 @@
 This project explores a dataset of student grades and performance metrics to identify key factors that influence academic perfomance. The goal of this analysis is to uncover trends related to student demographics, study habits, and other variables to provide actionable insights for improving educational outcomes.
 
 ## 🛠️ Tools & Technologies Used
-* **Google Sheets: Data cleaning, advanced data formatting, statistical analysis, and data visualization.
-* **SQL: Data manipulation, and querying.
-
+* Google Sheets: Data cleaning, advanced data formatting, statistical analysis, and data visualization.
+* SQL: Data manipulation, and querying.
+* Tableau: Data visualization
 
 ## 🗂️ Data Source
 The dataset contains 395 records of student data, including attributes such as attendance, study time, parental education level, lifestyle and social factors
@@ -33,15 +33,13 @@ Dataset source: https://archive.ics.uci.edu/dataset/320/student+performance
 ### 3. Data Visualization (Google Sheets)
 * Designed interactive charts to visually represent the correlation between various external factors and student grades.
 
-## 💡 Key Insights & Findings
-
 
 ## 🚀 How to Navigate this Repository
-* `data_cleaning.sql`: Contains the SQL queries used to clean and prep the raw data.
-* `eda_queries.sql`: Contains the SQL queries used for the primary analysis.
-* `student_performance_visuals.pdf`: A static export of the charts and graphs generated in Google Sheets.
+* `data_cleaning_process.md`: Contains steps used to clean and prep the raw data.
+* `exploratory_analysis.md`: Contains the SQL queries and pivot tables used for the primary analysis.
+* `visualizations`: A static export of the dashboards generated in tableau.
 
 ## 📬 Contact
 If you have any questions about this project or my analysis process, feel free to reach out!
-* **LinkedIn:** [Link to your LinkedIn]
-* **Email:** [Your Email]
+* **LinkedIn:** https://www.linkedin.com/in/samuel-obinna-99857a331/
+* **Email:** obinnasamuel1112@gmail.com
