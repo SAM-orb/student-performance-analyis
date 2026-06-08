@@ -1,3 +1,7 @@
+## Interactive Dashboard
+Explore the full interactive visualization on Tableau Public:
+[View the Student Performance Dashboard Here](https://public.tableau.com/app/profile/samuel.obinna8332/viz/Student-Performance-Analysis/Performancedrivers)
+
 ![DEMOGRAPHICS DASHBOARD](images/viz1.png)
 ## KEY DEMOGRAPHICS INSIGHT
 - Most students are between the ages 17 and 18
@@ -8,32 +12,32 @@
 - Male students slighty outperform female students
 - Performance and population difference between schools may suggest potential variations in learning environments
 
-![PERFORMANCE DRIVERS](viz2.png)
-##Key Insights
+![PERFORMANCE DRIVERS](images/viz2.png)
+## Key Insights
 Higher study time is associated with better academic performance.
 Students with more absences generally achieve lower grades.
 Parent education shows a positive relationship with student achievement.
 Previous failures are the strongest predictor of poor academic performance.
 
-###Recommendation
+## Recommendation
 Focus interventions on reducing absenteeism and providing additional support to students with prior failures, while encouraging effective study habits and parental engagement.
-###Executive Summary
+## Executive Summary
 Previous failures and absenteeism are the strongest negative drivers of student performance, while study time and parent education positively influence academic outcomes.
 
 ![BEHAVIORAL ANALYSIS](images/viz3.png)
-##Key Insights
+## Key Insights
 Students who go out more frequently tend to achieve slightly lower grades.
 Weekend alcohol consumption shows a negative relationship with academic performance.
 Students with internet access perform better on average than those without access.
 Romantic relationship status has little to no significant impact on academic outcomes.
 
-###Recommendation
+## Recommendation
 Promote balanced social activities and healthy lifestyle habits while improving access to educational resources such as internet connectivity. Academic support efforts should focus on behavioral factors that show stronger links to performance.
-###Executive Summary
+## Executive Summary
 Lifestyle behaviors such as frequent social outings and alcohol consumption are associated with lower academic performance, while internet access appears to support better outcomes. Romantic relationship status shows minimal influence on student achievement.
 
 ![CORRELATION](images/viz4.png)
-##Key Insights
+## Key Insights
 - Past academic struggles ("Previous Failures") are the strongest predictor of poor current grades, while higher "Parent Education" is the strongest driver of academic success.
 - High absences directly lower grades, whereas increased study time slightly improves grades and college ambition.
 - Past academic struggles heavily dampen future ambition; students with previous failures are significantly less likely to aim for college.
@@ -41,7 +45,7 @@ Lifestyle behaviors such as frequent social outings and alcohol consumption are 
 - Students are more likely to target higher education if they come from households with higher educational backgrounds.
 - students who plan to pursue higher education back up that ambition by dedicating slightly more time to studying
 
-###Recommendations
+## Recommendations
 - Implement proactive counseling for students with a history of "Previous Failures."
 - Since "Parent Education" strongly dictates academic success, provide targeted mentorship and resources for first-generation students or those lacking strong educational support at home.
 - Academic performance peaks at age 16, and enrollment drops sharply after age 18. Introduce engagement and career-planning programs targeting older teens to prevent performance drop-offs.
