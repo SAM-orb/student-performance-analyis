@@ -1,4 +1,4 @@
-![DEMOGRAPHICS DASHBOARD](images/viz 1.png)
+![DEMOGRAPHICS DASHBOARD](images/viz1.png)
 ## KEY DEMOGRAPHICS INSIGHT
 - Most students are between the ages 17 and 18
 - There is a sharp drop-off in the number of students at age 19, and very few are 21.
@@ -8,7 +8,7 @@
 - Male students slighty outperform female students
 - Performance and population difference between schools may suggest potential variations in learning environments
 
-![PERFORMANCE DRIVERS](viz 2.png)
+![PERFORMANCE DRIVERS](viz2.png)
 ##Key Insights
 Higher study time is associated with better academic performance.
 Students with more absences generally achieve lower grades.
@@ -20,7 +20,7 @@ Focus interventions on reducing absenteeism and providing additional support to 
 ###Executive Summary
 Previous failures and absenteeism are the strongest negative drivers of student performance, while study time and parent education positively influence academic outcomes.
 
-![BEHAVIORAL ANALYSIS](images/viz 3.png)
+![BEHAVIORAL ANALYSIS](images/viz3.png)
 ##Key Insights
 Students who go out more frequently tend to achieve slightly lower grades.
 Weekend alcohol consumption shows a negative relationship with academic performance.
@@ -32,7 +32,7 @@ Promote balanced social activities and healthy lifestyle habits while improving 
 ###Executive Summary
 Lifestyle behaviors such as frequent social outings and alcohol consumption are associated with lower academic performance, while internet access appears to support better outcomes. Romantic relationship status shows minimal influence on student achievement.
 
-![CORRELATION](images/viz 4.png)
+![CORRELATION](images/viz4.png)
 ##Key Insights
 - Past academic struggles ("Previous Failures") are the strongest predictor of poor current grades, while higher "Parent Education" is the strongest driver of academic success.
 - High absences directly lower grades, whereas increased study time slightly improves grades and college ambition.
