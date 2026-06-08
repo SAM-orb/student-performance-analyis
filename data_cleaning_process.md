@@ -61,7 +61,7 @@ Example:
 
 - `GT3` → `>3`
 
-### Excel Feature Used
+### Excel Formula Used
 IFS(
     E2="LE3", "<=3", 
     E2="GT3", ">3", 
@@ -123,7 +123,7 @@ Parental education codes:
 - `3` → Secondary Education
 
 - `4` → Higher Education
-### Excel Feature Used
+### Excel Formula Used
 =SWITCH(A2, 
     0, "None", 
     1, "Primary Education", 
